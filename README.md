@@ -1,23 +1,28 @@
-## AI Demand Forecasting & Inventory Optimization
-Overview: 
+# AI Demand Forecasting & Inventory Optimization
+
+## Overview: 
 Build an AI-powered demand forecasting model for a restaurant chain that predicts daily sales volume for menu items using historical POS data and engineered features — enabling managers to reduce food waste and optimize supply chain decisions.
 
-Traditional inventory systems rely on static estimates and intuition, often leading to:
+**Traditional inventory systems rely on static estimates and intuition, often leading to:**
+
  Over-ordering → food spoilage and losses
  Under-ordering → stockouts and missed revenue
  This project replaces guesswork with data-driven forecasting.
 
-# Key Metrics
- Model performance is evaluated using:
-  MAE (Mean Absolute Error)
-  RMSE (Root Mean Squared Error)
- 
- The model is designed to capture:
-  Weekly demand patterns (e.g., weekend spikes)
-  Seasonal trends
-  Long-term growth patterns
+## Key Metrics: 
 
-  ##  Users & Use Cases
+ **Model performance is evaluated using:**
+
+  * MAE (Mean Absolute Error)
+  * RMSE (Root Mean Squared Error)
+ 
+ **The model is designed to capture:**
+
+  * Weekly demand patterns (e.g., weekend spikes)
+  * Seasonal trends
+  * Long-term growth patterns
+
+  ##  Users & Use Cases:
 
 ###  Restaurant Manager
 
@@ -67,17 +72,21 @@ Traditional inventory systems rely on static estimates and intuition, often lead
 
 ---
 
-# Technology Stack
-Component                 Technology
-Data Processing           Python, Pandas, NumPy
-Machine Learning          Scikit-Learn, XGBoost
-Time Series               Statsmodels, Prophet
-Visualization             Matplotlib, Seaborn, Plotly
-Development               Jupyter Notebook
+## Technology Stack:
 
-# System Architecture
+* Component                 Technology
 
-Detailed Architecture
+* Data Processing           Python, Pandas, NumPy
+* Machine Learning          Scikit-Learn, XGBoost
+* Time Series               Statsmodels, Prophet
+* Visualization             Matplotlib, Seaborn, Plotly
+* Development               Jupyter Notebook
+
+## System Architecture:
+
+## 🏗️ System Architecture
+
+```
 ┌────────────────────┐
 │   Raw Sales Data   │
 │ (CSV / Database)   │
@@ -121,29 +130,35 @@ Detailed Architecture
 │ - Demand patterns  │
 │ - Inventory plans  │
 └────────────────────┘
+```
+
 # End-to-End Pipeline
 
-Data Ingestion
+1. **Data Ingestion**
+
 Collect historical sales and external data
 
-Preprocessing
+2. **Preprocessing**
+
 Clean, format, and prepare time-series data
 
-Feature Engineering 
+3. **Feature Engineering**
+
 Create meaningful features like lag values and rolling averages
 
-Model Training
+4. **Model Training**
+
 Train baseline and advanced ML models
 
-Evaluation
+5. **Evaluation**
+
 Compare models using MAE & RMSE
 
-Visualization & Insights
+6. **Visualization & Insights**
+
 Generate business insights from predictions
 
-## 🗺️ Project Roadmap
-
-The project is structured into a **4-week development plan**, following an industry-standard machine learning lifecycle.
+##  Project Roadmap:
 
 ---
 
@@ -161,7 +176,7 @@ The project is structured into a **4-week development plan**, following an indus
 
 ---
 
-## Week 2: Feature Engineering ⭐
+## Week 2: Feature Engineering 
 
 * Create time-based features:
 
