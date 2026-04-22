@@ -74,17 +74,17 @@ Build an AI-powered demand forecasting model for a restaurant chain that predict
 
 ## Technology Stack:
 
-* Component                 Technology
+| Component        | Technology                  |
+| ---------------- | --------------------------- |
+| Data Processing  | Python, Pandas, NumPy       |
+| Machine Learning | Scikit-Learn, XGBoost       |
+| Time Series      | Statsmodels, Prophet        |
+| Visualization    | Matplotlib, Seaborn, Plotly |
+| Development      | Jupyter Notebook            |
 
-* Data Processing           Python, Pandas, NumPy
-* Machine Learning          Scikit-Learn, XGBoost
-* Time Series               Statsmodels, Prophet
-* Visualization             Matplotlib, Seaborn, Plotly
-* Development               Jupyter Notebook
+---
 
 ## System Architecture:
-
-## 🏗️ System Architecture
 
 ```
 ┌────────────────────┐
