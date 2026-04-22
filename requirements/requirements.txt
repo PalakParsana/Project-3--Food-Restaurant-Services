@@ -1,0 +1,22 @@
+# Core Data Science
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Time Series
+prophet
+statsmodels
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Jupyter
+jupyter
+notebook
+ipykernel
+
