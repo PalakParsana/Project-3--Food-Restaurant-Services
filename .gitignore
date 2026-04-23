@@ -1,0 +1,58 @@
+# NOTE: restaurant_sales.csv is synthetic data — safe to push to GitHub.
+# For real POS data, uncomment the csv exclusion rule below.
+
+# ========================
+# Data Files (Do NOT push raw datasets)
+# ========================
+# data/*.csv  ← uncomment to exclude real sensitive data
+data/*.xlsx
+data/*.json
+data/*.parquet
+!data/.gitkeep
+
+# ========================
+# Model Weights (Do NOT push trained models)
+# ========================
+*.pkl
+*.h5
+*.joblib
+models/
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Jupyter Notebook Checkpoints
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ========================
+# Environment & Credentials (NEVER commit these)
+# ========================
+.env
+.env.*
+secrets.py
+config_local.py
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+.venv/
