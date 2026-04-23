@@ -4,7 +4,6 @@ from pathlib import Path
 
 DATA_PATH = Path("data/restaurant_sales.csv")
 
-
 def load_data(item: str = "Burger") -> pd.DataFrame:
     """
     Load the dataset, filter by menu item, and set a proper DatetimeIndex.

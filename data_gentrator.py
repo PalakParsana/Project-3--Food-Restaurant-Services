@@ -1,13 +1,3 @@
-"""
-src/data_generator.py
----------------------
-Generates a realistic synthetic restaurant Point-of-Sale (POS) dataset.
-Run this script ONCE at the start of Week 1 to create your dataset.
-
-Usage:
-    python src/data_generator.py
-"""
-
 import pandas as pd
 import numpy as np
 from pathlib import Path
